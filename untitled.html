@@ -1,0 +1,15 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+  	<a-marker-camera type='pattern' url='path/to/pattern-marker.patt'></a-marker-camera>
+            <a-video src="1/oceans.mp4" hight="1" width="1" position='0 0 0' rotation="270 0 0"> </a-video>
+
+
+  	</a-marker>
+  	<a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
